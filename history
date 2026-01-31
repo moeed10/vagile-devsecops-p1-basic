@@ -1,0 +1,94 @@
+ 1  java
+    2  sudo yum update -y
+    3  sudo dnf install java-21-openjdk-devel -y
+    4  java
+    5  java -version
+    6  echo $JAVA_HOME
+    7  readlink -f $(which java)
+    8  sudo vi /etc/profile
+    9  source /etc/profile
+   10  echo $JAVA_HOME
+   11  history
+   12  cat /etc/profile
+   13  git
+   14  sudo dnf install git -y
+   15  git
+   16  mvn
+   17  sudo dnf install maven -y
+   18  mvn -v
+   19  mvn
+   20  echo $JAVA_HOME
+   21  exit
+   22  mvn  -y
+   23  cat /etc/profi
+   24  cat /etc/profile
+   25  vi ~/.bashrc
+   26  source ~/.bashrc
+   27  echo $JAVA_HOME
+   28  mvn -v
+   29  env | grep JAVA
+   30  exit
+   31  mvn
+   32  history
+   33  sudo dnf install maven -y
+   34  mvn
+   35  echo $JAVA_HOME
+   36  vi ~/.bashrc
+   37  source ~/.bashrc
+   38  mvn
+   39  vi ~/.bashrc
+   40  source ~/.bashrc
+   41  mvn
+   42  mvn -v
+   43  wget https://dlcdn.apache.org/tomcat/tomcat-10/v10.1.52/bin/apache-tomcat-10.1.52.tar.gz
+   44  sudo dnf install wget -y
+   45  wget https://dlcdn.apache.org/tomcat/tomcat-10/v10.1.52/bin/apache-tomcat-10.1.52.tar.gz
+   46  ls
+   47  tar -zxvf apache-tomcat-10.1.52.tar.gz
+   48  ls
+   49  cd apache-tomcat-10.1.52
+   50  ls
+   51  cd conf/
+   52  ls
+   53  vi server.xml
+   54  vi tomcat-users.xml
+   55  cd ..
+   56  cd bin/
+   57  ls
+   58  ./startup.sh
+   59  cd ..
+   60  ls
+   61  cd webapps/
+   62  ls
+   63  cd manager/
+   64  ls
+   65  cd WEB-INF/
+   66  ls
+   67  cat web.xml
+   68  cd ..
+   69  cd META-INF/
+   70  ls
+   71  vi context.xml
+   72  cd ..
+   73  ls
+   74  cd host-manager/
+   75  ls
+   76  cd META-INF/
+   77  ls
+   78  vi context.xml
+   79  cd ../../../bin/
+   80  ls
+   81  ./shutdown.sh
+   82  ./startup.sh
+   83  cd /home/ec2-user/
+   84  ls
+   85  git clone https://github.com/vagile-devsecops/p1-basic.git
+   86  ls -la
+   87  cd .ssh/
+   88  ls
+   89  cd authorized_keys
+   90  ssh-keygen
+   91  ls
+   92  cd ..
+   93  exit
+   94  history
