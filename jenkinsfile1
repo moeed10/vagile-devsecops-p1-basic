@@ -1,0 +1,15 @@
+pipeline {
+    agent any
+    stages {
+        stage('git-checkout') {
+            steps {
+                git branch: 'main', url: 'https://github.com/moeed10/vagile-devsecops-p1-basic.git'
+            }
+        }
+        stage('package') {
+            steps {
+                bat 'mvn package'
+            }
+        }
+    }
+}
