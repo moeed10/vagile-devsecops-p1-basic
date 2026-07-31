@@ -42,7 +42,7 @@
              <configuration>
 		     <url>http://localhost:8080/manager/text</url>
 		     <username>admin</username>
-		     <password>password</password>
+		     <password>plan</password>
 	     </configuration>
 
      </plugin>
